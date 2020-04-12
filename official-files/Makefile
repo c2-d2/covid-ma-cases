@@ -20,5 +20,6 @@ help: ## Print help message
 clean: ## Clean
 
 cleanall: clean ## Clean all
+	rm -f *.docx
 
 

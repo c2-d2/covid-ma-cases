@@ -2,139 +2,197 @@ Coronavirus Disease 2019 (COVID-19) Cases in MA
 
 *As of March 26, 2020*
 
-Confirmed Cases Reported = 2417
-===============================
+# Confirmed Cases Reported = 2417
 
-+-------------------------------------+-------------------------------+
-| **CATEGORY** {#category}            | **NUMBER OF CONFIRMED CASES** |
-| ============                        |  {#number-of-confirmed-cases} |
-|                                     | ============================= |
-+=====================================+===============================+
-| **County** {#county}                |                               |
-| ----------                          |                               |
-+-------------------------------------+-------------------------------+
-| ### Barnstable {#barnstable}        | 67                            |
-+-------------------------------------+-------------------------------+
-| ### Berkshire {#berkshire}          | 73                            |
-+-------------------------------------+-------------------------------+
-| ### Bristol {#bristol}              | 90                            |
-+-------------------------------------+-------------------------------+
-| ### Dukes a                         | 3                             |
-| nd Nantucket {#dukes-and-nantucket} |                               |
-+-------------------------------------+-------------------------------+
-| ### Essex {#essex}                  | 247                           |
-+-------------------------------------+-------------------------------+
-| ### Franklin {#franklin}            | 16                            |
-+-------------------------------------+-------------------------------+
-| ### Hampden {#hampden}              | 55                            |
-+-------------------------------------+-------------------------------+
-| ### Hampshire {#hampshire}          | 17                            |
-+-------------------------------------+-------------------------------+
-| ### Middlesex {#middlesex}          | 538                           |
-+-------------------------------------+-------------------------------+
-| ### Norfolk {#norfolk}              | 292                           |
-+-------------------------------------+-------------------------------+
-| ### Plymouth {#plymouth}            | 138                           |
-+-------------------------------------+-------------------------------+
-| ### Suffolk {#suffolk}              | 448                           |
-+-------------------------------------+-------------------------------+
-| ### Worcester {#worcester}          | 166                           |
-+-------------------------------------+-------------------------------+
-| ### Unknown {#unknown}              | 267                           |
-+-------------------------------------+-------------------------------+
-| Sex {#sex}                          |                               |
-| ---                                 |                               |
-+-------------------------------------+-------------------------------+
-| ### Female {#female}                | 1218                          |
-+-------------------------------------+-------------------------------+
-| ### Male {#male}                    | 1197                          |
-+-------------------------------------+-------------------------------+
-| ### Unknown {#unknown-1}            | 2                             |
-+-------------------------------------+-------------------------------+
-| Age Group                           |                               |
-+-------------------------------------+-------------------------------+
-| #                                   | 53                            |
-| ## ≤19 years of age {#years-of-age} |                               |
-+-------------------------------------+-------------------------------+
-| ### 2                               | 425                           |
-| 0-29 years of age {#years-of-age-1} |                               |
-+-------------------------------------+-------------------------------+
-| ### 3                               | 433                           |
-| 0-39 years of age {#years-of-age-2} |                               |
-+-------------------------------------+-------------------------------+
-| ### 4                               | 386                           |
-| 0-49 years of age {#years-of-age-3} |                               |
-+-------------------------------------+-------------------------------+
-| ### 5                               | 437                           |
-| 0-59 years of age {#years-of-age-4} |                               |
-+-------------------------------------+-------------------------------+
-| ### 6                               | 329                           |
-| 0-69 years of age {#years-of-age-5} |                               |
-+-------------------------------------+-------------------------------+
-| ###                                 | 352                           |
-| ≥ 70 years of age {#years-of-age-6} |                               |
-+-------------------------------------+-------------------------------+
-| ### Unknown {#unknown-2}            | 2                             |
-+-------------------------------------+-------------------------------+
-| Exposure {#exposure}                |                               |
-| --------                            |                               |
-+-------------------------------------+-------------------------------+
-| ###                                 | 99                            |
-|  Biogen conference attendees and ho |                               |
-| usehold contacts {#biogen-conferenc |                               |
-| e-attendees-and-household-contacts} |                               |
-+-------------------------------------+-------------------------------+
-| ### Local                           | 163                           |
-| transmission  {#local-transmission} |                               |
-+-------------------------------------+-------------------------------+
-| ##                                  | 93                            |
-| # Travel related  {#travel-related} |                               |
-+-------------------------------------+-------------------------------+
-| ### Under i                         | 2062                          |
-| nvestigation {#under-investigation} |                               |
-+-------------------------------------+-------------------------------+
-| Deaths {#deaths}                    |                               |
-| ------                              |                               |
-+-------------------------------------+-------------------------------+
-| Attributed to                       | 25 {#section}                 |
-|  COVID-19 {#attributed-to-covid-19} | --                            |
-| ----------------------              |                               |
-+-------------------------------------+-------------------------------+
-| Hospitalization  {#hospitalization} |                               |
-| ---------------                     |                               |
-+-------------------------------------+-------------------------------+
-| ### Patient was hospi               | 219                           |
-| talized {#patient-was-hospitalized} |                               |
-+-------------------------------------+-------------------------------+
-| ### Patient was not hospitali       | 366                           |
-| zed {#patient-was-not-hospitalized} |                               |
-+-------------------------------------+-------------------------------+
-| ### Under Inv                       | 1832                          |
-| estigation {#under-investigation-1} |                               |
-+-------------------------------------+-------------------------------+
+<table>
+<thead>
+<tr class="header">
+<th><h1 id="category"><strong>CATEGORY</strong></h1></th>
+<th><h1 id="number-of-confirmed-cases"><strong>NUMBER OF CONFIRMED CASES</strong></h1></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><h2 id="county"><strong>County</strong></h2></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><h3 id="barnstable">Barnstable</h3></td>
+<td>67</td>
+</tr>
+<tr class="odd">
+<td><h3 id="berkshire">Berkshire</h3></td>
+<td>73</td>
+</tr>
+<tr class="even">
+<td><h3 id="bristol">Bristol</h3></td>
+<td>90</td>
+</tr>
+<tr class="odd">
+<td><h3 id="dukes-and-nantucket">Dukes and Nantucket</h3></td>
+<td>3</td>
+</tr>
+<tr class="even">
+<td><h3 id="essex">Essex</h3></td>
+<td>247</td>
+</tr>
+<tr class="odd">
+<td><h3 id="franklin">Franklin</h3></td>
+<td>16</td>
+</tr>
+<tr class="even">
+<td><h3 id="hampden">Hampden</h3></td>
+<td>55</td>
+</tr>
+<tr class="odd">
+<td><h3 id="hampshire">Hampshire</h3></td>
+<td>17</td>
+</tr>
+<tr class="even">
+<td><h3 id="middlesex">Middlesex</h3></td>
+<td>538</td>
+</tr>
+<tr class="odd">
+<td><h3 id="norfolk">Norfolk</h3></td>
+<td>292</td>
+</tr>
+<tr class="even">
+<td><h3 id="plymouth">Plymouth</h3></td>
+<td>138</td>
+</tr>
+<tr class="odd">
+<td><h3 id="suffolk">Suffolk</h3></td>
+<td>448</td>
+</tr>
+<tr class="even">
+<td><h3 id="worcester">Worcester</h3></td>
+<td>166</td>
+</tr>
+<tr class="odd">
+<td><h3 id="unknown">Unknown</h3></td>
+<td>267</td>
+</tr>
+<tr class="even">
+<td><h2 id="sex">Sex</h2></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><h3 id="female">Female</h3></td>
+<td>1218</td>
+</tr>
+<tr class="even">
+<td><h3 id="male">Male</h3></td>
+<td>1197</td>
+</tr>
+<tr class="odd">
+<td><h3 id="unknown-1">Unknown</h3></td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td>Age Group</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><h3 id="years-of-age">≤19 years of age</h3></td>
+<td>53</td>
+</tr>
+<tr class="even">
+<td><h3 id="years-of-age-1">20-29 years of age</h3></td>
+<td>425</td>
+</tr>
+<tr class="odd">
+<td><h3 id="years-of-age-2">30-39 years of age</h3></td>
+<td>433</td>
+</tr>
+<tr class="even">
+<td><h3 id="years-of-age-3">40-49 years of age</h3></td>
+<td>386</td>
+</tr>
+<tr class="odd">
+<td><h3 id="years-of-age-4">50-59 years of age</h3></td>
+<td>437</td>
+</tr>
+<tr class="even">
+<td><h3 id="years-of-age-5">60-69 years of age</h3></td>
+<td>329</td>
+</tr>
+<tr class="odd">
+<td><h3 id="years-of-age-6">≥ 70 years of age</h3></td>
+<td>352</td>
+</tr>
+<tr class="even">
+<td><h3 id="unknown-2">Unknown</h3></td>
+<td>2</td>
+</tr>
+<tr class="odd">
+<td><h2 id="exposure">Exposure</h2></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><h3 id="biogen-conference-attendees-and-household-contacts">Biogen conference attendees and household contacts</h3></td>
+<td>99</td>
+</tr>
+<tr class="odd">
+<td><h3 id="local-transmission">Local transmission </h3></td>
+<td>163</td>
+</tr>
+<tr class="even">
+<td><h3 id="travel-related">Travel related </h3></td>
+<td>93</td>
+</tr>
+<tr class="odd">
+<td><h3 id="under-investigation">Under investigation</h3></td>
+<td>2062</td>
+</tr>
+<tr class="even">
+<td><h2 id="deaths">Deaths</h2></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><h2 id="attributed-to-covid-19">Attributed to COVID-19</h2></td>
+<td><h2 id="section">25</h2></td>
+</tr>
+<tr class="even">
+<td><h2 id="hospitalization">Hospitalization </h2></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><h3 id="patient-was-hospitalized">Patient was hospitalized</h3></td>
+<td>219</td>
+</tr>
+<tr class="even">
+<td><h3 id="patient-was-not-hospitalized">Patient was not hospitalized</h3></td>
+<td>366</td>
+</tr>
+<tr class="odd">
+<td><h3 id="under-investigation-1">Under Investigation</h3></td>
+<td>1832</td>
+</tr>
+</tbody>
+</table>
 
- {#section-1}
+# 
 
 These data are cumulative and current as of March 26, 2020 at 12:30PM.
 
-  Laboratory                                   Total Patients Positive   Total Patients Tested
-  -------------------------------------------- ------------------------- -----------------------
-  MA State Public Health Laboratory            551                       5313
-  ARUP                                         17                        181
-  Beth Israel Deaconess Medical Center         208                       1607
-  BioReference Laboratories                    3                         9
-  Boston Medical Center                        24                        91
-  BROAD Institute CRSP\*                       \*                        \*
-  Centers for Disease Control and Prevention   1                         11
-  Children's Hospital Boston                   5                         66
-  LabCorp                                      140                       2028
-  Mayo Clinic Labs                             28                        207
-  Partners Healthcare                          118                       1239
-  Quest Laboratories                           1138                      11409
-  Tufts Medical Center                         121                       648
-  Viracor                                      46                        740
-  Other                                        17                        72
-  Total Patients Tested\*\*                    **2417**                  **23621**
+| Laboratory                                 | Total Patients Positive | Total Patients Tested |
+| ------------------------------------------ | ----------------------- | --------------------- |
+| MA State Public Health Laboratory          | 551                     | 5313                  |
+| ARUP                                       | 17                      | 181                   |
+| Beth Israel Deaconess Medical Center       | 208                     | 1607                  |
+| BioReference Laboratories                  | 3                       | 9                     |
+| Boston Medical Center                      | 24                      | 91                    |
+| BROAD Institute CRSP\*                     | \*                      | \*                    |
+| Centers for Disease Control and Prevention | 1                       | 11                    |
+| Children’s Hospital Boston                 | 5                       | 66                    |
+| LabCorp                                    | 140                     | 2028                  |
+| Mayo Clinic Labs                           | 28                      | 207                   |
+| Partners Healthcare                        | 118                     | 1239                  |
+| Quest Laboratories                         | 1138                    | 11409                 |
+| Tufts Medical Center                       | 121                     | 648                   |
+| Viracor                                    | 46                      | 740                   |
+| Other                                      | 17                      | 72                    |
+| Total Patients Tested\*\*                  | **2417**                | **23621**             |
 
 Data are cumulative and current as of March 26, 2020 at 12:30PM.
 

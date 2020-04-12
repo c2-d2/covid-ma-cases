@@ -1,179 +1,249 @@
----
-subtitle: 'As of March 23, 2020'
-title: 'Coronavirus Disease 2019 (COVID-19) Cases in MA'
----
+# Confirmed Cases Reported = 777
 
-Confirmed Cases Reported = 777
-==============================
+<table>
+<thead>
+<tr class="header">
+<th><h1 id="category"><strong>CATEGORY</strong></h1></th>
+<th><h1 id="number-of-confirmed-cases"><strong>NUMBER OF CONFIRMED CASES</strong></h1></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><h2 id="county"><strong>County</strong></h2></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><h3 id="barnstable">Barnstable</h3></td>
+<td>30</td>
+</tr>
+<tr class="odd">
+<td><h3 id="berkshire">Berkshire</h3></td>
+<td>26</td>
+</tr>
+<tr class="even">
+<td><h3 id="bristol">Bristol</h3></td>
+<td>25</td>
+</tr>
+<tr class="odd">
+<td><h3 id="dukes-and-nantucket">Dukes and Nantucket</h3></td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td><h3 id="essex">Essex</h3></td>
+<td>73</td>
+</tr>
+<tr class="odd">
+<td><h3 id="franklin">Franklin</h3></td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td><h3 id="hampden">Hampden</h3></td>
+<td>15</td>
+</tr>
+<tr class="odd">
+<td><h3 id="hampshire">Hampshire</h3></td>
+<td>6</td>
+</tr>
+<tr class="even">
+<td><h3 id="middlesex">Middlesex</h3></td>
+<td>232</td>
+</tr>
+<tr class="odd">
+<td><h3 id="norfolk">Norfolk</h3></td>
+<td>82</td>
+</tr>
+<tr class="even">
+<td><h3 id="plymouth">Plymouth</h3></td>
+<td>32</td>
+</tr>
+<tr class="odd">
+<td><h3 id="suffolk">Suffolk</h3></td>
+<td>154</td>
+</tr>
+<tr class="even">
+<td><h3 id="worcester">Worcester</h3></td>
+<td>42</td>
+</tr>
+<tr class="odd">
+<td><h3 id="unknown">Unknown</h3></td>
+<td>57</td>
+</tr>
+<tr class="even">
+<td><h2 id="sex">Sex</h2></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><h3 id="female">Female</h3></td>
+<td>378</td>
+</tr>
+<tr class="even">
+<td><h3 id="male">Male</h3></td>
+<td>399</td>
+</tr>
+<tr class="odd">
+<td><h2 id="age-group">Age Group</h2></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><h3 id="years-of-age">≤19 years of age</h3></td>
+<td>19</td>
+</tr>
+<tr class="odd">
+<td><h3 id="years-of-age-1">20-29 years of age</h3></td>
+<td>115</td>
+</tr>
+<tr class="even">
+<td><h3 id="years-of-age-2">30-39 years of age</h3></td>
+<td>132</td>
+</tr>
+<tr class="odd">
+<td><h3 id="years-of-age-3">40-49 years of age</h3></td>
+<td>152</td>
+</tr>
+<tr class="even">
+<td><h3 id="years-of-age-4">50-59 years of age</h3></td>
+<td>141</td>
+</tr>
+<tr class="odd">
+<td><h3 id="years-of-age-5">60-69 years of age</h3></td>
+<td>111</td>
+</tr>
+<tr class="even">
+<td><h3 id="years-of-age-6">≥ 70 years of age</h3></td>
+<td>107</td>
+</tr>
+<tr class="odd">
+<td><h2 id="exposure">Exposure</h2></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><h3 id="biogen-conference-attendees-and-household-contacts">Biogen conference attendees and household contacts</h3></td>
+<td>99</td>
+</tr>
+<tr class="odd">
+<td><h3 id="local-transmission">Local transmission </h3></td>
+<td>104</td>
+</tr>
+<tr class="even">
+<td><h3 id="travel-related">Travel related </h3></td>
+<td>75</td>
+</tr>
+<tr class="odd">
+<td><h3 id="under-investigation">Under investigation</h3></td>
+<td>499</td>
+</tr>
+<tr class="even">
+<td><h2 id="deaths">Deaths</h2></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><h3 id="attributed-to-covid-19">Attributed to COVID-19</h3></td>
+<td><h2 id="section">9</h2></td>
+</tr>
+<tr class="even">
+<td><h2 id="hospitalization">Hospitalization </h2></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><h3 id="patient-was-hospitalized">Patient was hospitalized</h3></td>
+<td>79</td>
+</tr>
+<tr class="even">
+<td><h3 id="patient-was-not-hospitalized">Patient was not hospitalized</h3></td>
+<td>286</td>
+</tr>
+<tr class="odd">
+<td><h3 id="under-investigation-1">Under Investigation</h3></td>
+<td>412</td>
+</tr>
+</tbody>
+</table>
 
-+-------------------------------------+-------------------------------+
-| **CATEGORY** {#category}            | **NUMBER OF CONFIRMED CASES** |
-| ============                        |  {#number-of-confirmed-cases} |
-|                                     | ============================= |
-+=====================================+===============================+
-| **County** {#county}                |                               |
-| ----------                          |                               |
-+-------------------------------------+-------------------------------+
-| ### Barnstable {#barnstable}        | 30                            |
-+-------------------------------------+-------------------------------+
-| ### Berkshire {#berkshire}          | 26                            |
-+-------------------------------------+-------------------------------+
-| ### Bristol {#bristol}              | 25                            |
-+-------------------------------------+-------------------------------+
-| ### Dukes a                         | 1                             |
-| nd Nantucket {#dukes-and-nantucket} |                               |
-+-------------------------------------+-------------------------------+
-| ### Essex {#essex}                  | 73                            |
-+-------------------------------------+-------------------------------+
-| ### Franklin {#franklin}            | 2                             |
-+-------------------------------------+-------------------------------+
-| ### Hampden {#hampden}              | 15                            |
-+-------------------------------------+-------------------------------+
-| ### Hampshire {#hampshire}          | 6                             |
-+-------------------------------------+-------------------------------+
-| ### Middlesex {#middlesex}          | 232                           |
-+-------------------------------------+-------------------------------+
-| ### Norfolk {#norfolk}              | 82                            |
-+-------------------------------------+-------------------------------+
-| ### Plymouth {#plymouth}            | 32                            |
-+-------------------------------------+-------------------------------+
-| ### Suffolk {#suffolk}              | 154                           |
-+-------------------------------------+-------------------------------+
-| ### Worcester {#worcester}          | 42                            |
-+-------------------------------------+-------------------------------+
-| ### Unknown {#unknown}              | 57                            |
-+-------------------------------------+-------------------------------+
-| Sex {#sex}                          |                               |
-| ---                                 |                               |
-+-------------------------------------+-------------------------------+
-| ### Female {#female}                | 378                           |
-+-------------------------------------+-------------------------------+
-| ### Male {#male}                    | 399                           |
-+-------------------------------------+-------------------------------+
-| Age Group {#age-group}              |                               |
-| ---------                           |                               |
-+-------------------------------------+-------------------------------+
-| #                                   | 19                            |
-| ## ≤19 years of age {#years-of-age} |                               |
-+-------------------------------------+-------------------------------+
-| ### 2                               | 115                           |
-| 0-29 years of age {#years-of-age-1} |                               |
-+-------------------------------------+-------------------------------+
-| ### 3                               | 132                           |
-| 0-39 years of age {#years-of-age-2} |                               |
-+-------------------------------------+-------------------------------+
-| ### 4                               | 152                           |
-| 0-49 years of age {#years-of-age-3} |                               |
-+-------------------------------------+-------------------------------+
-| ### 5                               | 141                           |
-| 0-59 years of age {#years-of-age-4} |                               |
-+-------------------------------------+-------------------------------+
-| ### 6                               | 111                           |
-| 0-69 years of age {#years-of-age-5} |                               |
-+-------------------------------------+-------------------------------+
-| ###                                 | 107                           |
-| ≥ 70 years of age {#years-of-age-6} |                               |
-+-------------------------------------+-------------------------------+
-| Exposure {#exposure}                |                               |
-| --------                            |                               |
-+-------------------------------------+-------------------------------+
-| ###                                 | 99                            |
-|  Biogen conference attendees and ho |                               |
-| usehold contacts {#biogen-conferenc |                               |
-| e-attendees-and-household-contacts} |                               |
-+-------------------------------------+-------------------------------+
-| ### Local                           | 104                           |
-| transmission  {#local-transmission} |                               |
-+-------------------------------------+-------------------------------+
-| ##                                  | 75                            |
-| # Travel related  {#travel-related} |                               |
-+-------------------------------------+-------------------------------+
-| ### Under i                         | 499                           |
-| nvestigation {#under-investigation} |                               |
-+-------------------------------------+-------------------------------+
-| Deaths {#deaths}                    |                               |
-| ------                              |                               |
-+-------------------------------------+-------------------------------+
-| ### Attributed to                   | 9 {#section}                  |
-|  COVID-19 {#attributed-to-covid-19} | -                             |
-+-------------------------------------+-------------------------------+
-| Hospitalization  {#hospitalization} |                               |
-| ---------------                     |                               |
-+-------------------------------------+-------------------------------+
-| ### Patient was hospi               | 79                            |
-| talized {#patient-was-hospitalized} |                               |
-+-------------------------------------+-------------------------------+
-| ### Patient was not hospitali       | 286                           |
-| zed {#patient-was-not-hospitalized} |                               |
-+-------------------------------------+-------------------------------+
-| ### Under Inv                       | 412                           |
-| estigation {#under-investigation-1} |                               |
-+-------------------------------------+-------------------------------+
-
- {#section-1}
+# 
 
 These data are cumulative and current as of 12:30PM.
 
-+----------------------+----------------------+----------------------+
-| **Labora             | **Total Patients Pos | **Total Patients     |
-| tory** {#laboratory} | itive\*\*\*** {#tota |  Tested\*\*** {#tota |
-| ==============       | l-patients-positive} | l-patients-tested-1} |
-|                      | =============        | =========            |
-|                      | ==================== | ==================== |
-+======================+======================+======================+
-| ### MA State P       | 392                  | 3722                 |
-| ublic Health Laborat |                      |                      |
-| ory {#ma-state-publi |                      |                      |
-| c-health-laboratory} |                      |                      |
-+----------------------+----------------------+----------------------+
-| ### ARUP {#arup}     | 16                   | 172                  |
-+----------------------+----------------------+----------------------+
-| ### Beth Israel Deac | 61                   | 815                  |
-| oness Medical Center |                      |                      |
-|  {#beth-israel-deaco |                      |                      |
-| ness-medical-center} |                      |                      |
-+----------------------+----------------------+----------------------+
-| ### BioReference L   | 3                    | 9                    |
-| aboratories {#bioref |                      |                      |
-| erence-laboratories} |                      |                      |
-+----------------------+----------------------+----------------------+
-| ### Centers          | 1                    | 11                   |
-| for Disease Control  |                      |                      |
-| and Prevention {#cen |                      |                      |
-| ters-for-disease-con |                      |                      |
-| trol-and-prevention} |                      |                      |
-+----------------------+----------------------+----------------------+
-| ### Children's Hosp  | 1                    | 39                   |
-| ital Boston {#childr |                      |                      |
-| ens-hospital-boston} |                      |                      |
-+----------------------+----------------------+----------------------+
-| ##                   | 109                  | 1772                 |
-| # LabCorp {#labcorp} |                      |                      |
-+----------------------+----------------------+----------------------+
-| ### Mayo Clinic Labs | 1                    | 18                   |
-|  {#mayo-clinic-labs} |                      |                      |
-+----------------------+----------------------+----------------------+
-| ### Pa               | 30                   | 488                  |
-| rtners Healthcare {# |                      |                      |
-| partners-healthcare} |                      |                      |
-+----------------------+----------------------+----------------------+
-| ###                  | 112                  | 1226                 |
-| Quest Laboratories { |                      |                      |
-| #quest-laboratories} |                      |                      |
-+----------------------+----------------------+----------------------+
-| ### Tuft             | 13                   | 128                  |
-| s Medical Center {#t |                      |                      |
-| ufts-medical-center} |                      |                      |
-+----------------------+----------------------+----------------------+
-| ##                   | 27                   | 464                  |
-| # Viracor {#viracor} |                      |                      |
-+----------------------+----------------------+----------------------+
-| ### Other {#other}   | 11                   | 58                   |
-+----------------------+----------------------+----------------------+
-| ### Total            | **777**              | **8922**             |
-| Patients Tested {#to |                      |                      |
-| tal-patients-tested} |                      |                      |
-+----------------------+----------------------+----------------------+
+<table>
+<thead>
+<tr class="header">
+<th><h1 id="laboratory"><strong>Laboratory</strong></h1></th>
+<th><h1 id="total-patients-positive"><strong>Total Patients Positive***</strong></h1></th>
+<th><h1 id="total-patients-tested-1"><strong>Total Patients Tested**</strong></h1></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><h3 id="ma-state-public-health-laboratory">MA State Public Health Laboratory</h3></td>
+<td>392</td>
+<td>3722</td>
+</tr>
+<tr class="even">
+<td><h3 id="arup">ARUP</h3></td>
+<td>16</td>
+<td>172</td>
+</tr>
+<tr class="odd">
+<td><h3 id="beth-israel-deaconess-medical-center">Beth Israel Deaconess Medical Center</h3></td>
+<td>61</td>
+<td>815</td>
+</tr>
+<tr class="even">
+<td><h3 id="bioreference-laboratories">BioReference Laboratories</h3></td>
+<td>3</td>
+<td>9</td>
+</tr>
+<tr class="odd">
+<td><h3 id="centers-for-disease-control-and-prevention">Centers for Disease Control and Prevention</h3></td>
+<td>1</td>
+<td>11</td>
+</tr>
+<tr class="even">
+<td><h3 id="childrens-hospital-boston">Children’s Hospital Boston</h3></td>
+<td>1</td>
+<td>39</td>
+</tr>
+<tr class="odd">
+<td><h3 id="labcorp">LabCorp</h3></td>
+<td>109</td>
+<td>1772</td>
+</tr>
+<tr class="even">
+<td><h3 id="mayo-clinic-labs">Mayo Clinic Labs</h3></td>
+<td>1</td>
+<td>18</td>
+</tr>
+<tr class="odd">
+<td><h3 id="partners-healthcare">Partners Healthcare</h3></td>
+<td>30</td>
+<td>488</td>
+</tr>
+<tr class="even">
+<td><h3 id="quest-laboratories">Quest Laboratories</h3></td>
+<td>112</td>
+<td>1226</td>
+</tr>
+<tr class="odd">
+<td><h3 id="tufts-medical-center">Tufts Medical Center</h3></td>
+<td>13</td>
+<td>128</td>
+</tr>
+<tr class="even">
+<td><h3 id="viracor">Viracor</h3></td>
+<td>27</td>
+<td>464</td>
+</tr>
+<tr class="odd">
+<td><h3 id="other">Other</h3></td>
+<td>11</td>
+<td>58</td>
+</tr>
+<tr class="even">
+<td><h3 id="total-patients-tested">Total Patients Tested</h3></td>
+<td><strong>777</strong></td>
+<td><strong>8922</strong></td>
+</tr>
+</tbody>
+</table>
 
 Data are cumulative and current as of 12:30PM.
 

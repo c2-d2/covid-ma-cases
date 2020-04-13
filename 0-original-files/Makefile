@@ -7,16 +7,23 @@ SHELL=/usr/bin/env bash -eo pipefail
 .SUFFIXES:
 
 all:
-	# automatic links detection
+	# manually addded docx that are not linked from the main MA website
+
+	# last report
+	curl https://www.mass.gov/info-details/covid-19-cases-quarantine-and-monitoring \
+		| grep -oi "|.*doc.*" \
+		| grep cases \
+		| grep -o '".*"' \
+		| perl -pe 's@"/@"https://www.mass.gov/@g'\
+		| xargs -L0 wget --continue --content-disposition
+
+	# reports from the archive
 	curl https://www.mass.gov/info-details/archive-of-covid-19-cases-in-massachusetts \
 		| grep -oi "|.*doc.*" \
 		| grep -o '".*"' \
 		| grep -v "return" \
 		| perl -pe 's@"/@"https://www.mass.gov/@g' \
 		| xargs -L0 wget --continue --content-disposition
-
-	# manually addded docx that are not linked from the main MA website
-	wget --continue --content-disposition https://www.mass.gov/doc/covid-19-cases-in-massachusetts-as-of-april-12-2020-0/download
 
 
 help: ## Print help message

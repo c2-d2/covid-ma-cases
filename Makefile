@@ -7,11 +7,10 @@ SHELL=/usr/bin/env bash -eo pipefail
 .SUFFIXES:
 
 SUBDIRS=$(wildcard *-*/)
-$(info $(SUBDIRS))
 
 all:
 	for dir in $(SUBDIRS); do \
-		$(MAKE) -C $$dir -f Makefile $@; \
+		$(MAKE) -C $$dir; \
 	done
 	$(MAKE) symlink
 
@@ -27,7 +26,7 @@ help: ## Print help message
 
 clean: ## Clean
 	for dir in $(SUBDIRS); do \
-		$(MAKE) -C $$dir -f Makefile $@; \
+		$(MAKE) -C $$dir clean; \
 	done
 	rm -f *.tsv
 

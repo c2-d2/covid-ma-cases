@@ -42,3 +42,22 @@ grep -n 'Preexisting' ../../2-*/*.tsv \
 
 rename 's/table\d+\.//g' *.tsv
 )
+
+(
+mkdir -p 4_laboratories
+cd 4_laboratories
+grep -n 'Laboratory' ../../2-*/*.tsv \
+	| perl -pe 's/:.*//g' \
+	| sort \
+	| uniq \
+	| xargs -L1 ln -s
+
+ls *.tsv \
+	| sort \
+	| grep -B 9999 2020-03-22 \
+	| sort \
+	| uniq \
+	| xargs rm
+
+#rename 's/table\d+\.//g' *.tsv
+)

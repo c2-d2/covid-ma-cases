@@ -17,16 +17,20 @@ def get_date(s):
     return date
 
 
-def split_tables(f):
+def process_tables(f):
     html = " ".join([x.strip() for x in f])
     date = get_date(html)
     print(date)
     dfs = pandas.read_html(html)
     for i, df in enumerate(dfs, 1):
         print(f"Processing {date} - Table {i}")
+        unnamed = df.columns.str.contains('^Unnamed')
+        unnamed_exists = True in unnamed
+        print_header = not unnamed_exists
         df.to_csv(f"{date}.table{i}.tsv",
                   quoting=csv.QUOTE_NONE,
                   sep='\t',
+                  header=print_header,
                   index=False)
 
 
@@ -42,7 +46,7 @@ def main():
 
     args = parser.parse_args()
 
-    split_tables(args.file)
+    process_tables(args.file)
 
 
 if __name__ == "__main__":

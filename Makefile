@@ -6,7 +6,7 @@ SHELL=/usr/bin/env bash -eo pipefail
 
 .SUFFIXES:
 
-SUBDIRS=$(wildcard *-*/)
+SUBDIRS=$(shell ls -d *-*/)
 
 all:
 	for dir in $(SUBDIRS); do \

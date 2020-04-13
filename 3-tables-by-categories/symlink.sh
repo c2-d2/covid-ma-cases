@@ -59,5 +59,9 @@ ls *.tsv \
 	| uniq \
 	| xargs rm
 
-#rename 's/table\d+\.//g' *.tsv
+
+# This is a non-sense table hidden somewhere in the document
+rm 2020-03-31.table3.tsv
+
+rename 's/table\d+\.//g' *.tsv
 )

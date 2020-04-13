@@ -28,5 +28,5 @@ grep -n 'Hispanic' ../../2-*/*.tsv \
 	| uniq \
 	| xargs -L1 ln -s
 
-#rename 's/table\d+\.//g' *.tsv
+rename 's/table\d+\.//g' *.tsv
 )

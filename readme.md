@@ -4,9 +4,17 @@ This repository contains scripts to pull and convert data from the official [COV
 
 ## How to use
 
-* Prerequisites: Mac OS, Python with Pandas, Pandoc, Wget, RSync
-* Redo everything: `make -j`
+### Get the data
+
+* Cloning using git: `git clone https://github.com/c2-d2/covid-ma-cases`
+* Downloading as a zip: [link](https://github.com/c2-d2/covid-ma-cases/archive/master.zip)
+
+
+### Execute the workflow
+
+* Prerequisites: Mac OS, Python 3.6+ with Pandas, Pandoc, Wget, Curl, RSync
 * Clean: `make clean`
+* Redo everything: `make -j`
 
 ## Pipeline
 

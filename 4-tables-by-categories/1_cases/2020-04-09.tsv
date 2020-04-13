@@ -1,0 +1,40 @@
+CATEGORY	NUMBER OF CONFIRMED CASES
+County	
+Barnstable	444.0
+Berkshire	304.0
+Bristol	994.0
+Dukes	9.0
+Essex	2336.0
+Franklin	128.0
+Hampden	1276.0
+Hampshire	177.0
+Middlesex	4045.0
+Nantucket	9.0
+Norfolk	2007.0
+Plymouth	1507.0
+Suffolk	4041.0
+Worcester	1461.0
+Unknown	203.0
+Sex	
+Female	9988.0
+Male	8776.0
+Unknown	177.0
+Age Group	
+≤19 years of age	403.0
+20-29 years of age	2408.0
+30-39 years of age	2882.0
+40-49 years of age	2926.0
+50-59 years of age	3562.0
+60-69 years of age	2681.0
+70-79 years of age	1782.0
+≥ 80 years of age	2292.0
+Unknown	5.0
+Deaths	
+Attributed to COVID-19	503.0
+COVID-19 Cases in Long-Term Care Facilities*	
+Residents/Healthcare workers of Long-Term Care Facilities	1633.0
+Long-Term Care Facilities Reporting At Least One Case of COVID-19	159.0
+Hospitalization	
+Patient was hospitalized	1747.0
+Patient was not hospitalized	5106.0
+Under Investigation	12088.0

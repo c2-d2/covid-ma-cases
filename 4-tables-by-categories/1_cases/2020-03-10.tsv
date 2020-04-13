@@ -1,0 +1,19 @@
+CATEGORY	NUMBER OF CONFIRMED AND PRESUMPTIVE CASES
+County	
+Berkshire	7.0
+Essex	1.0
+Middlesex	41.0
+Norfolk	22.0
+Suffolk	20.0
+Worcester	1.0
+Sex	
+Female	40.0
+Male	52.0
+Exposure	
+Biogen employees/contacts	70.0
+Travel related	4.0
+Under investigation	18.0
+Hospitalization	
+Patient was hospitalized	6.0
+Patient was not hospitalized	62.0
+Under investigation	24.0

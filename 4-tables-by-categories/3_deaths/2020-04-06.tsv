@@ -1,0 +1,30 @@
+Sex	Age	County	Preexisting Conditions	Hospitalized
+Male	80s	Middlesex	Yes	Yes
+Male	80s	Middlesex	Yes	Yes
+Female	80s	Middlesex	Yes	Yes
+Male	80s	Norfolk	Unknown	No
+Female	70s	Norfolk	Yes	Yes
+Female	80s	Norfolk	Yes	Yes
+Female	70s	Plymouth	Yes	Yes
+Male	80s	Essex	Yes	Yes
+Female	70s	Unknown	Unknown	No
+Male	70s	Suffolk	Unknown	Yes
+Male	90s	Barnstable	Yes	Yes
+Female	60s	Hampden	Yes	Yes
+Female	80s	Essex	Unknown	Yes
+Female	70s	Plymouth	Unknown	Yes
+Male	50s	Essex	Yes	Yes
+Male	80s	Middlesex	Unknown	Unknown
+Male	50s	Suffolk	Unknown	Yes
+Male	80s	Middlesex	Unknown	Unknown
+Male	70s	Worcester	Yes	Yes
+Female	90s	Middlesex	Unknown	Unknown
+Female	70s	Hampden	Yes	Yes
+Female	90s	Plymouth	Unknown	Yes
+Female	80s	Franklin	Unknown	Unknown
+Female	70s	Hampden	Unknown	Yes
+Male	90s	Suffolk	Unknown	Unknown
+Male	80s	Dukes and Nantucket	Yes	Yes
+Male	70s	Hampden	Unknown	Unknown
+Male	90s	Suffolk	Yes	Yes
+Female	70s	Plymouth	Unknown	No

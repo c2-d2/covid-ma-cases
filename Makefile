@@ -16,7 +16,7 @@ all:
 
 symlink:
 	rm -f *.tsv
-	lastdate=$$(ls 2-raw-tsv/*.tsv | perl -pe 's/\..*//g' | sort | tail -n1);\
+	lastdate=$$(ls 2-*/*.tsv | perl -pe 's/\..*//g' | sort | tail -n1);\
 		for x in $${lastdate}.*; do\
 			ln -s $$x;\
 		done

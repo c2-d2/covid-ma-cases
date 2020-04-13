@@ -6,15 +6,15 @@ SHELL=/usr/bin/env bash -eo pipefail
 
 .SUFFIXES:
 
-files_html=$(notdir $(patsubst %.docx,%.html, $(wildcard ../0-official-files/*.docx)))
-files_md=$(notdir $(patsubst %.docx,%.md, $(wildcard ../0-official-files/*.docx)))
+files_html=$(notdir $(patsubst %.docx,%.html, $(wildcard ../0-original-files/*.docx)))
+files_md=$(notdir $(patsubst %.docx,%.md, $(wildcard ../0-original-files/*.docx)))
 
 all: $(files_html) $(files_md)
 
-%.html: ../0-official-files/%.docx
+%.html: ../0-original-files/%.docx
 	pandoc -t html5 -s $< -o $@
 
-%.md: ../0-official-files/%.docx
+%.md: ../0-original-files/%.docx
 	pandoc -t gfm -s $< -o $@
 
 help: ## Print help message

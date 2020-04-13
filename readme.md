@@ -16,3 +16,6 @@ This repository contains scripts to pull and convert data from the official "COV
 4. Tables of individual categories are identified using text search and symlinked.
 5. The symlinked files are copied to a new directory.
 
+## Author
+
+[Karel Břinda](https://scholar.harvard.edu/brinda) \<karel.brinda@hms.harvard.edu\>

@@ -1,6 +1,6 @@
 # COVID-19 cases in Massachusetts
 
-This repository contains scripts to pull and convert data from the official *COVID-19 cases in Massachusetts* website. The resulting files are located in the `4-tables-by-categories` directory.
+This repository contains scripts to pull and convert data from the official *COVID-19 cases in Massachusetts* website. The resulting files are located in the [4-tables-by-categories](4-tables-by-categories/) directory.
 
 ## How to use
 

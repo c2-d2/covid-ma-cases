@@ -4,7 +4,7 @@ ARUP	17	181
 Beth Israel Deaconess Medical Center	208	1607
 BioReference Laboratories	3	9
 Boston Medical Center	24	91
-BROAD Institute CRSP*	*	*
+BROAD Institute CRSP		
 Centers for Disease Control and Prevention	1	11
 Children’s Hospital Boston	5	66
 LabCorp	140	2028
@@ -14,4 +14,4 @@ Quest Laboratories	1138	11409
 Tufts Medical Center	121	648
 Viracor	46	740
 Other	17	72
-Total Patients Tested**	2417	23621
+Total Patients Tested	2417	23621

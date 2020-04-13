@@ -17,6 +17,12 @@ def get_date(s):
     return date
 
 
+def clean_tsv(s):
+    # footnotes
+    s = re.sub('\*+', "", s)
+    return s
+
+
 def process_tables(f):
     html = " ".join([x.strip() for x in f])
     date = get_date(html)
@@ -27,11 +33,15 @@ def process_tables(f):
         unnamed = df.columns.str.contains('^Unnamed')
         unnamed_exists = True in unnamed
         print_header = not unnamed_exists
-        df.to_csv(f"{date}.table{i}.tsv",
-                  quoting=csv.QUOTE_NONE,
-                  sep='\t',
-                  header=print_header,
-                  index=False)
+        fn = f"{date}.table{i}.tsv"
+        s = df.to_csv(None,
+                      quoting=csv.QUOTE_NONE,
+                      sep='\t',
+                      header=print_header,
+                      index=False)
+        s = clean_tsv(s)
+        with open(fn, "w+") as f:
+            f.write(s)
 
 
 def main():

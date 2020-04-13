@@ -1,26 +1,26 @@
 CATEGORY	NUMBER OF CONFIRMED CASES
 County	
-Barnstable	2.0
-Berkshire	17.0
-Bristol	5.0
-Essex	14.0
-Franklin	1.0
-Hampden	2.0
-Middlesex	100.0
-Norfolk	45.0
-Plymouth	5.0
-Suffolk	51.0
-Worcester	10.0
-Unknown	4.0
+Barnstable	2
+Berkshire	17
+Bristol	5
+Essex	14
+Franklin	1
+Hampden	2
+Middlesex	100
+Norfolk	45
+Plymouth	5
+Suffolk	51
+Worcester	10
+Unknown	4
 Sex	
-Female	119.0
-Male	137.0
+Female	119
+Male	137
 Exposure	
-Biogen conference attendees and household contacts	97.0
-Local transmission	38.0
-Travel related	26.0
-Under investigation	95.0
+Biogen conference attendees and household contacts	97
+Local transmission	38
+Travel related	26
+Under investigation	95
 Hospitalization	
-Patient was hospitalized	27.0
-Patient was not hospitalized	151.0
-Under Investigation	78.0
+Patient was hospitalized	27
+Patient was not hospitalized	151
+Under Investigation	78

@@ -19,7 +19,10 @@ def get_date(s):
 
 def clean_tsv(s):
     # footnotes
-    s = re.sub('\*+', "", s)
+    s = re.sub(r'\*+', "", s, flags=re.MULTILINE)
+    # fake floats
+    s = re.sub(r'\.0\t', "\t", s, flags=re.MULTILINE)
+    s = re.sub(r'\.0$', "", s, flags=re.MULTILINE)
     return s
 
 

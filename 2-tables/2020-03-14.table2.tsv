@@ -1,22 +1,22 @@
 CATEGORY	NUMBER OF CONFIRMED AND PRESUMPTIVE CASES
 County	
-Barnstable	1.0
-Berkshire	9.0
-Bristol	1.0
-Essex	5.0
-Middlesex	65.0
-Norfolk	28.0
-Suffolk	27.0
-Worcester	2.0
+Barnstable	1
+Berkshire	9
+Bristol	1
+Essex	5
+Middlesex	65
+Norfolk	28
+Suffolk	27
+Worcester	2
 Sex	
-Female	64.0
-Male	74.0
+Female	64
+Male	74
 Exposure	
-Biogen/contacts	104.0
-Travel related	5.0
-Western MA cluster	8.0
-Under investigation	21.0
+Biogen/contacts	104
+Travel related	5
+Western MA cluster	8
+Under investigation	21
 Hospitalization	
-Patient was hospitalized	11.0
-Patient was not hospitalized	105.0
-Under Investigation	22.0
+Patient was hospitalized	11
+Patient was not hospitalized	105
+Under Investigation	22

@@ -1,31 +1,31 @@
 CATEGORY	NUMBER OF CONFIRMED CASES
 County	
-Barnstable	11.0
-Berkshire	21.0
-Bristol	14.0
-Dukes and Nantucket	1.0
-Essex	41.0
-Franklin	2.0
-Hampden	9.0
-Hampshire	2.0
-Middlesex	177.0
-Norfolk	69.0
-Plymouth	20.0
-Suffolk	108.0
-Worcester	24.0
-Unknown	26.0
+Barnstable	11
+Berkshire	21
+Bristol	14
+Dukes and Nantucket	1
+Essex	41
+Franklin	2
+Hampden	9
+Hampshire	2
+Middlesex	177
+Norfolk	69
+Plymouth	20
+Suffolk	108
+Worcester	24
+Unknown	26
 Sex	
-Female	249.0
-Male	275.0
-Unknown	1.0
+Female	249
+Male	275
+Unknown	1
 Exposure	
-Biogen conference attendees and household contacts	97.0
-Local transmission	69.0
-Travel related	53.0
-Under investigation	306.0
+Biogen conference attendees and household contacts	97
+Local transmission	69
+Travel related	53
+Under investigation	306
 Deaths	
-Attributed to COVID-19	1.0
+Attributed to COVID-19	1
 Hospitalization	
-Patient was hospitalized	61.0
-Patient was not hospitalized	215.0
-Under Investigation	249.0
+Patient was hospitalized	61
+Patient was not hospitalized	215
+Under Investigation	249

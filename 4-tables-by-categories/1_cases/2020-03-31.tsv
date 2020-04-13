@@ -1,35 +1,35 @@
 CATEGORY	NUMBER OF CONFIRMED CASES
 County	
-Barnstable	191.0
-Berkshire	171.0
-Bristol	306.0
-Dukes and Nantucket	8.0
-Essex	784.0
-Franklin	61.0
-Hampden	354.0
-Hampshire	69.0
-Middlesex	1340.0
-Norfolk	738.0
-Plymouth	459.0
-Suffolk	1373.0
-Worcester	433.0
-Unknown	333.0
+Barnstable	191
+Berkshire	171
+Bristol	306
+Dukes and Nantucket	8
+Essex	784
+Franklin	61
+Hampden	354
+Hampshire	69
+Middlesex	1340
+Norfolk	738
+Plymouth	459
+Suffolk	1373
+Worcester	433
+Unknown	333
 Sex	
-Female	3369.0
-Male	3218.0
-Unknown	33.0
+Female	3369
+Male	3218
+Unknown	33
 Age Group	
-≤19 years of age	137.0
-20-29 years of age	1081.0
-30-39 years of age	1181.0
-40-49 years of age	1084.0
-50-59 years of age	1280.0
-60-69 years of age	925.0
-≥ 70 years of age	924.0
-Unknown	8.0
+≤19 years of age	137
+20-29 years of age	1081
+30-39 years of age	1181
+40-49 years of age	1084
+50-59 years of age	1280
+60-69 years of age	925
+≥ 70 years of age	924
+Unknown	8
 Deaths	
-Attributed to COVID-19	89.0
+Attributed to COVID-19	89
 Hospitalization	
-Patient was hospitalized	562.0
-Patient was not hospitalized	1941.0
-Under Investigation	4117.0
+Patient was hospitalized	562
+Patient was not hospitalized	1941
+Under Investigation	4117

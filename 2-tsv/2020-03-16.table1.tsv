@@ -1,0 +1,25 @@
+CATEGORY	NUMBER OF CONFIRMED CASES
+County	
+Barnstable	1.0
+Berkshire	11.0
+Bristol	2.0
+Essex	8.0
+Hampden	1.0
+Middlesex	83.0
+Norfolk	36.0
+Plymouth	3.0
+Suffolk	36.0
+Worcester	6.0
+Unknown	10.0
+Sex	
+Female	93.0
+Male	104.0
+Exposure	
+Biogen and household contacts	100.0
+Local transmission	28.0
+Travel related	18.0
+Under investigation	51.0
+Hospitalization	
+Patient was hospitalized	14.0
+Patient was not hospitalized	123.0
+Under Investigation	60.0

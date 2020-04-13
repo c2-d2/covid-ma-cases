@@ -30,3 +30,15 @@ grep -n 'Hispanic' ../../2-*/*.tsv \
 
 rename 's/table\d+\.//g' *.tsv
 )
+
+(
+mkdir -p 3_deaths
+cd 3_deaths
+grep -n 'Preexisting' ../../2-*/*.tsv \
+	| perl -pe 's/:.*//g' \
+	| sort \
+	| uniq \
+	| xargs -L1 ln -s
+
+rename 's/table\d+\.//g' *.tsv
+)

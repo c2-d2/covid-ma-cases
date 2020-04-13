@@ -22,8 +22,12 @@ all:
 		| grep -oi "|.*doc.*" \
 		| grep -o '".*"' \
 		| grep -v "return" \
+		| grep -v "\.pdf" \
 		| perl -pe 's@"/@"https://www.mass.gov/@g' \
 		| xargs -L0 wget --continue --content-disposition
+
+	# report from March 13 is missing from the list
+	wget --continue --content-disposition https://www.mass.gov/doc/covid-19-cases-in-massachusetts-as-of-march-13-2020-accessible/download
 
 
 help: ## Print help message

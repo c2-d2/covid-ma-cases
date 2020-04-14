@@ -10,7 +10,7 @@ rm -f */*.tsv
 echo "Symlinking 1"
 mkdir -p 1_cases
 cd 1_cases
-grep -n 'Berkshire' ../../2-*/*.tsv \
+grep -n 'Berkshire	' ../../2-*/*.tsv \
 	| grep -Evi '(male|female)' \
 	| perl -pe 's/:.*//g' \
 	| sort \

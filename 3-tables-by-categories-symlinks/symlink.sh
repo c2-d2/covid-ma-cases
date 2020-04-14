@@ -7,6 +7,7 @@ set -u
 rm -f */*.tsv
 
 (
+echo "Symlinking 1"
 mkdir -p 1_cases
 cd 1_cases
 grep -n 'Berkshire' ../../2-*/*.tsv \
@@ -20,6 +21,7 @@ rename 's/table\d+\.//g' *.tsv
 )
 
 (
+echo "Symlinking 2"
 mkdir -p 2_ethnicity
 cd 2_ethnicity
 grep -n 'Hispanic' ../../2-*/*.tsv \
@@ -32,6 +34,7 @@ rename 's/table\d+\.//g' *.tsv
 )
 
 (
+echo "Symlinking 3"
 mkdir -p 3_deaths
 cd 3_deaths
 grep -n 'Preexisting' ../../2-*/*.tsv \
@@ -44,6 +47,7 @@ rename 's/table\d+\.//g' *.tsv
 )
 
 (
+echo "Symlinking 4"
 mkdir -p 4_laboratories
 cd 4_laboratories
 grep -n 'Laboratory' ../../2-*/*.tsv \
